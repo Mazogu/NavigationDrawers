@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.micha.navigationactivity.NumberActivity">
+
+    <TextView
+        android:layout_marginTop="@dimen/smallpadding"
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tsize"
+        android:layout_marginBottom="@dimen/paddingsize"
+        android:hint="Number:"/>
+    <SeekBar
+        android:id="@+id/numberBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/morepadding"
+        android:max="1000"/>
+    <TextView
+        android:id="@+id/power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tsize"
+        android:layout_marginBottom="@dimen/paddingsize"
+        android:hint="To the power"/>
+    <SeekBar
+        android:id="@+id/powerBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/morepadding"/>
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/biggerText"
+        android:textAlignment="center"
+        android:hint="Answer"
+        android:layout_marginTop="@dimen/morepadding"/>
+
+</LinearLayout>

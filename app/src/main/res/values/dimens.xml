@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="morepadding">50dp</dimen>
+    <dimen name="tsize">25sp</dimen>
+    <dimen name="paddingsize">20dp</dimen>
+    <dimen name="smallpadding">10dp</dimen>
+    <dimen name="biggerText">40sp</dimen>
+</resources>
