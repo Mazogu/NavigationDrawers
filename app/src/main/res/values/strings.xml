@@ -11,4 +11,7 @@
     <string name="Media">Media</string>
     <string name="Web">Web</string>
     <string name="Nav">Navigate</string>
+    <string name="favorites">Favorites</string>
+    <string name="filler">Filler</string>
+    <string name="taco">Taco</string>
 </resources>
