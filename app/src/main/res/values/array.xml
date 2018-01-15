@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_names">
+        <item>Main</item>
+        <item>Camera</item>
+        <item>Power</item>
+        <item>Web</item>
+        <item>Media Player</item>
+    </string-array>
+</resources>
