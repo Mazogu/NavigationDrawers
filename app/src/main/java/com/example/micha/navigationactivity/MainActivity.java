@@ -105,6 +105,14 @@ public class MainActivity extends AppCompatActivity {
         if (toggle.onOptionsItemSelected(item)) {
             return true;
         }
+        else if(item.getItemId() == R.id.favorite){
+            Intent intent = new Intent(getApplicationContext(),NumberActivity.class);
+            startActivity(intent);
+        }
+        else if(item.getItemId() == R.id.filler){
+            Intent intent = new Intent(getApplicationContext(),WebActivity.class);
+            startActivity(intent);
+        }
         return super.onOptionsItemSelected(item);
     }
 
