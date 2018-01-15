@@ -11,15 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WebActivity" />
-        <activity android:name=".NumberActivity"></activity>
+        <activity android:name=".WebActivity"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".NumberActivity"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".MediaActivity"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".CameraActivity"
+            android:launchMode="singleInstance"></activity>
     </application>
 
 </manifest>

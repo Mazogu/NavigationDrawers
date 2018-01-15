@@ -2,12 +2,13 @@ package com.example.micha.navigationactivity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
 
-public class WebActivity extends AppCompatActivity {
+public class WebActivity extends MainActivity{
 
     private WebView web;
     private final static String URL = "https://www.youtube.com/";
@@ -17,7 +18,8 @@ public class WebActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_web);
+        ViewGroup view = (ViewGroup) findViewById(R.id.content);
+        getLayoutInflater().inflate(R.layout.activity_web,view);
 
         web = findViewById(R.id.web);
         settings = web.getSettings();

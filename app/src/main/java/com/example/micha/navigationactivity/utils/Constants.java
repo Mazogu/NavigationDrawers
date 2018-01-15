@@ -12,6 +12,6 @@ public class Constants {
         public static final int CAMERAID = R.string.Camera;
         public static final int MEDIAID = R.string.Media;
         public static final int WEBID = R.string.Web;
-        public static final int POWER = R.string.Power;
+        public static final int POWERID = R.string.Power;
     }
 }

@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/morepadding"
-        android:max="1000"/>
+        android:max="100"/>
     <TextView
         android:id="@+id/power"
         android:layout_width="match_parent"

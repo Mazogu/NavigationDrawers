@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="activity_names">
-        <item>Main</item>
-        <item>Camera</item>
-        <item>Power</item>
-        <item>Web</item>
-        <item>Media Player</item>
+        <item>@string/Main</item>
+        <item>@string/Camera</item>
+        <item>@string/Power</item>
+        <item>@string/Web</item>
+        <item>@string/Media</item>
     </string-array>
 </resources>
